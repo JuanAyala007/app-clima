@@ -1,0 +1,62 @@
+.weather {
+    width: 100%;
+    max-width: 380px;
+    background-color: #c3c9cec0;
+    padding: 2em 1.5em 2.5em;
+    border-radius: 0.9em;
+}
+.weather-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+.weather-country {
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+.weather-body {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.weather-icon {
+    width: 100%;
+}
+.weather-description {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0.8em;
+}
+.weather-list {
+    display: grid;
+    gap: 0.5em;
+}
+.weather-item {
+    display: grid;
+    font-size: 0.9em;
+}
+.weather-value {
+    font-weight: 600;
+}
+.weather-temp {
+    text-align: center;
+    font-size: 1.8em;
+}
+.button {
+    border: none;
+    font-size: 1em;
+    padding: 0.6em 1.5em;
+    border-radius: 0.5em;
+    font-weight: 400;
+    background-color: #5f85af;
+}
+.button:hover {
+    background-color: #85a9d1;
+}
+.button:active {
+    transform: scale(0.95);
+}
